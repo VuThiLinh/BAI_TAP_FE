@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price Table</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <div class="body container">
+    <div class="body">
         <div class="box">
             <div class="image">
                 <img src="/images/ocean.png" alt="">
@@ -28,23 +27,13 @@
                     <h4>Subtitle goes here</h4>
                     <p>Subtitle second line goes here lorem ipsum *</p>
                 </div>
-                <table>
-                    <tr>
-                        <td>Drop out ramen hustitle</td>
-                    </tr>
-                    <tr>
-                        <td>Coworking viral landing</td>
-                    </tr>
-                    <tr>
-                        <td>Crush revenue traction</td>
-                    </tr>
-                    <tr>
-                        <td>User base minimum viable</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                    </tr>
-                </table>
+                <ul>
+                    <li>Drop out ramen hustitle</li>
+                    <li>Coworking viral landing</li>
+                    <li>Crush revenue traction</li>
+                    <li>User base minimum viable</li>
+                    <li>Lorem ipsum dolor</li>
+                </ul>
                 <button class="box-1">BUY TOUR</button>
             </div>
         </div>
@@ -72,23 +61,13 @@
                     <h4>Subtitle goes here</h4>
                     <p>Subtitle second line goes here lorem ipsum *</p>
                 </div>
-                <table>
-                    <tr>
-                        <td>Drop out ramen hustitle</td>
-                    </tr>
-                    <tr>
-                        <td>Coworking viral landing</td>
-                    </tr>
-                    <tr>
-                        <td>Crush revenue traction</td>
-                    </tr>
-                    <tr>
-                        <td>User base minimum viable</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                    </tr>
-                </table>
+                <ul>
+                    <li>Drop out ramen hustitle</li>
+                    <li>Coworking viral landing</li>
+                    <li>Crush revenue traction</li>
+                    <li>User base minimum viable</li>
+                    <li>Lorem ipsum dolor</li>
+                </ul>
                 <button class="box-2">BUY TOUR</button>
             </div>
         </div>
@@ -110,105 +89,17 @@
                     <h4>Subtitle goes here</h4>
                     <p>Subtitle second line goes here lorem ipsum *</p>
                 </div>
-                <table>
-                    <tr>
-                        <td>Drop out ramen hustitle</td>
-                    </tr>
-                    <tr>
-                        <td>Coworking viral landing</td>
-                    </tr>
-                    <tr>
-                        <td>Crush revenue traction</td>
-                    </tr>
-                    <tr>
-                        <td>User base minimum viable</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor</td>
-                    </tr>
-                </table>
+                <ul>
+                    <li>Drop out ramen hustitle</li>
+                    <li>Coworking viral landing</li>
+                    <li>Crush revenue traction</li>
+                    <li>User base minimum viable</li>
+                    <li>Lorem ipsum dolor</li>
+                </ul>
                 <button class="box-3 ">BUY TOUR</button>
             </div>
         </div>
     </div>
 
-    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script language="javascript">
-        $(window).resize(function(){
-        var width = $(window).width();
-
-        if(width < 576){
-            console.log(width);
-            $('.box').addClass('res_576');
-            $('button').addClass('res_btn_576');
-            $('.head').addClass('res_content_576');
-        }
-        else{
-            console.log(width);
-            $('.box').removeClass('res_576');
-            $('button').removeClass('res_btn_576');
-            $('.head').removeClass('res_content_576');
-        }
-
-        if (576 < width && width < 768){
-            console.log(width);
-            $('.box').addClass('responsive_992');
-            $('.price').addClass('res_price_992');
-            $('.price span').addClass('res_price_span_992');
-            $('.price p').addClass('res_price_p_992');
-            $('.img-new').addClass('res_img_992');
-            $('.img-new img').addClass('res_img-new_992');
-            $('.img-new p').addClass('res_img-p_992');
-            $('h3').addClass('res_title_992');
-            $('.title p').addClass('res_title-p_992');
-            $('.head h4').addClass('res_head-h4_992');
-            $('.head p').addClass('res_head_p_992');
-            $('td').addClass('res_td_992');
-            $('button').addClass('res_button');
-            
-        }
-        else{
-            console.log(width);
-            $('.box').removeClass('responsive_992');
-            $('.price').removeClass('res_price_992');
-            $('.price span').removeClass('res_price_span_992');
-            $('.price p').removeClass('res_price_p_992');
-            $('.img-new').removeClass('res_img_992');
-            $('.img-new img').removeClass('res_img-new_992');
-            $('.img-new p').removeClass('res_img-p_992');
-            $('h3').removeClass('res_title_992');
-            $('.title p').removeClass('res_title-p_992');
-            $('.head h4').removeClass('res_head-h4_992');
-            $('.head p').removeClass('res_head_p_992');
-            $('td').removeClass('res_td_992');
-            $('button').removeClass('res_button');
-        }
-
-        if (768 < width && width < 1200){
-        console.log(width);
-            $('.price').addClass('res_price');
-            $('.price span').addClass('res_price_span');
-            $('.price p').addClass('res_price_p');
-            $('.img-new img').addClass('res_img-new');
-            $('.img-new p').addClass('res_img-p');
-            $('.head h4').addClass('res_head-h4');
-            $('h3').addClass('res_title');
-            $('.title p').addClass('res_title-p');
-            $('.head').addClass('res_content');
-        }
-        else{
-            console.log(width);
-            $('.price').removeClass('res_price');
-            $('.price span').removeClass('res_price_span');
-            $('.price p').removeClass('res_price_p');
-            $('.img-new img').removeClass('res_img-new');
-            $('.img-new p').removeClass('res_img-p');
-            $('.content .head h4').removeClass('res_head-h4');
-            $('h3').removeClass('res_title');
-            $('.title p').removeClass('res_title-p');
-            $('.head').removeClass('res_content');
-        }
-        });
-    </script>
 </body>
 </html>
